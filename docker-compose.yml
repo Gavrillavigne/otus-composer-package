@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app:
+    build: docker/php
+    container_name: otus-php
+    volumes:
+      - ./:/app
+    networks:
+      - otus-network
+
+networks:
+  otus-network:
+    driver: bridge

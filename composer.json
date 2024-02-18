@@ -1,0 +1,10 @@
+{
+    "name": "stanislav-gavrilchik/otus-composer-package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "StanislavGavrilchik\\OtusComposerPackage\\": "src/"
+        }
+    },
+    "require": {}
+}
